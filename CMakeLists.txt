@@ -6,6 +6,7 @@ set(CMAKE_C_STANDARD 17)
 OPTION(UA2F_BUILD_TESTS "Build tests" OFF)
 OPTION(UA2F_ENABLE_UCI "Enable UCI support" ON)
 OPTION(UA2F_NO_CACHE "Disable cache" OFF)
+OPTION(UA2F_DEBUG_BUILD "Enable Debug" ON)
 
 find_package(Git)
 if (GIT_FOUND)
